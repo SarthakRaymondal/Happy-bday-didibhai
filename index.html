@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image\jpg" href="img1.jpg">
+    <title>Happy birthday didibhai🗿</title>
+    <style>
+        /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+    body{margin: 0;}
+        .ft1 {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dashboard-1 {
+    width: 100%;
+    background-image: linear-gradient(to right , #C136C1 , orange);
+
+}
+.box-1 {
+    transform: rotateX(180deg);
+    width: 100%;
+    background-image: linear-gradient(to right , #F7D1FF , #B063BF);
+    display: flex;
+    height: 260px;
+}
+.box-2, .box-1 {
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.box-2 {
+    width: 100%;
+    background-image: linear-gradient(to right , #F7D1FF , #B063BF);
+    height: 260px;
+}
+.bg {
+    background-image:  url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media(max-width:748px) {
+    .box-1 {
+
+        overflow: auto;
+    }
+}
+.sdt1 {margin-left: 5px;color: white;font-size: 20px;display: none;}
+@media(max-width:565px) {
+    .box-1 {
+        flex-direction: column;
+        overflow: auto;
+    }
+    .sdt1 {
+        display: block;
+    }
+}
+.card:hover .inner-card {
+  transform: rotateX(180deg);
+}
+#icard {
+position: relative;
+  width: 100%;
+  height: 260px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+    </style>
+</head>
+<body class="bg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+<div style="width: 100%;height: 100vh;position: absolute;top: 0;backdrop-filter: brightness(70%);">
+<div class="dashboard-1">
+<p class="ft1" style="text-align: center;font-size: 40px;color: white;">Happy birthday hotdog didibhai🗿</p>
+</div><br>
+<div class="card" id="card">
+<div class="inner-card" id="icard">
+<div class="box-2">
+     <p style="text-align: center;font-size: 40px;color: white;" class="ft1" onclick="fc()" id="ft1">Hover me.</p>
+</div>
+<div class="box-1">
+     <div style="display: flex;align-items: center;"><img src="img1.jpg" alt="didibhai🗿" height="260" width="230"><a class="ft1 sdt1">Scroll down.<br>to see the card👇</a></div>
+     <div style="margin-left: 5px;"><BR>
+    <a class="ft1" style="font-size: 30px;color: white;">Happy Birthday didibhai🗿</a>
+    <p class="ft1" style="color: white;">
+        Happy Birthday! Wishing you a day filled with joy, laughter, and everything that makes you happy. Thank you for always being there for me, for your guidance, support, and endless love. I feel incredibly lucky to have you as my sibling. Here's to another year of amazing experiences and memories together!
+<br><br>
+Love,<br>
+-Sarthak Raymondal(the chad🗿)
+
+    </p>
+    </div>
+</div><br><br>
+
+</div>
+<!--main card--></div>
+<br><br>
+<a href="#" onclick="sc()" class="ft1">Credits</a>
+<!--maindiv--></div>
+<script>
+    var dw = window.innerWidth
+    if (dw === 566 || dw < 565) {
+        alert("I know you are using a phone📱")
+        document.getElementById("ft1").innerHTML = "Click me."
+    }
+    function fc() {
+        alert("Be good be happy,like imposter✅")
+    }
+    function sc() {
+        alert("Made for my Didabhai's bday:\nPictures from my Great dad😃\nDynamic card features & design(custom scroolbar , flip card) by W3school \nRest by me(chad)🗿")
+    }
+</script>
+</body>
+</html>
